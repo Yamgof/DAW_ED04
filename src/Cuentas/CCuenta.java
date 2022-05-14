@@ -59,6 +59,10 @@ public class CCuenta {
         return nombre;
     }
 
+    /**
+     * @param nombre le da un valor al atributo nombre
+     */
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -69,6 +73,10 @@ public class CCuenta {
     public String getCuenta() {
         return cuenta;
     }
+
+    /**
+     * @param cuenta le da un valor al atributo cuenta
+     */
 
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
@@ -81,6 +89,9 @@ public class CCuenta {
         return saldo;
     }
 
+    /**
+     * @param saldo le da valor al atributo saldo
+     */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
@@ -91,6 +102,10 @@ public class CCuenta {
     public double getTipoInteres() {
         return tipoInteres;
     }
+
+    /**
+     * @param tipoInteres le da valor al tipo de interes
+     */
 
     public void setTipoInteres(double tipoInteres) {
         this.tipoInteres = tipoInteres;
